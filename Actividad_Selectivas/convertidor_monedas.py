@@ -1,7 +1,4 @@
 #Convertidor de monedas
-from unittest import case
-
-
 cantidad = float(input("Cantidad en MXN: "))
 print("Monedas: 1.USD 2.EUR 3.THB 4-JPY 5.KRW 6.AUD 7.PEN 8.CAD 9.VES 10.ARS")
 opcion = int(input("Elige opción: "))
@@ -39,3 +36,5 @@ match opcion:
     case _:
         print("opción no válida")
         resultado = None
+if resultado is not None:
+    print("Convertido:", resultado, moneda)
