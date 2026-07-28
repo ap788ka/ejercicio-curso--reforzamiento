@@ -11,4 +11,4 @@ match consulta:
         info = "Película de superhéroes del MCU."
     case _:
         info = "No se encontró información."
-print("información", info)
+print("información:", info)
