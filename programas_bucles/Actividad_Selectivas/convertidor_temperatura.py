@@ -1,6 +1,6 @@
 #Convertidor de temperatura 
 celsius = float(input("Temperatura en °C: "))
-print("1. Fahrenheit/n2. Kelvin")
+print("1. Farenheit/n2. Kelvin")
 opcion = int(input("Eloge opción: "))
 match opcion:
     case 1:

@@ -1,4 +1,4 @@
-#calculadora de nota final con validación de rango
+#calculadora de nota kfinal con validación de rango
 parcial = float(input("Nota parciales (0-100): "))
 proyecto = float(input("Nota proyecto (0-100): "))
 examen = float(input("Nota examen fianl (0-100): "))
